@@ -2,11 +2,36 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title><% preact.title %></title>
+		<title>Oob-ify</title>
+		<meta name="title" content="Oob-ify">
+		<meta name="description" content="Replaces the letters S, E, A and N with Oob, because why not.">
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://oobify.netlify.app/">
+		<meta property="og:title" content="Oob-ify">
+		<meta property="og:description" content="Replaces the letters S, E, A and N with Oob, because why not.">
+		<meta property="og:image" content="https://oobify.netlify.app/assets/og.png">
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content="https://oobify.netlify.app/">
+		<meta property="twitter:title" content="Oob-ify">
+		<meta property="twitter:description" content="Replaces the letters S, E, A and N with Oob, because why not.">
+		<meta property="twitter:image" content="https://oobify.netlify.app/assets/og.png">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-38410543-2"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-38410543-2');
+		</script>
 		<% preact.headEnd %>
 	</head>
 	<body>
