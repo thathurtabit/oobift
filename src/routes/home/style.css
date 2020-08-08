@@ -1,0 +1,49 @@
+.home {
+	padding: 56px 20px;
+	min-height: 100%;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	color: #444;
+	text-align: center;
+	font-size: calc(20px + 2vmin);
+	line-height: 1.33;
+}
+
+h1 span,
+h1 strong {
+	color: #673AB7;
+}
+
+h2 {
+	color: #673AB7;
+	font-size: calc(25px + 2vmin);
+	padding: 10px 20px 20px;
+}
+
+input {
+	background: rgba(0,0,0,0.1);
+	box-shadow: none;
+	border: 3px solid rgba(0,0,0,0.2);
+	text-align: center;
+	font-size: calc(20px + 2vmin);
+	padding: 20px;
+	margin: 10px;
+	max-width: 90vw;
+}
+
+input:focus {
+	box-shadow: inset 0 0 0 2px #673AB7;
+	outline: 0;
+}
+
+.takenfrom {
+	position: absolute;
+	bottom: 20px;
+}
